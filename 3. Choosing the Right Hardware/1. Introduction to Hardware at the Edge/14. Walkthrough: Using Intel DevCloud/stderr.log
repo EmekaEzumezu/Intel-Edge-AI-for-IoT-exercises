@@ -1,0 +1,9 @@
+load_model.py:13: DeprecationWarning: Reading network using constructor is deprecated. Please, use IECore.read_network() method instead
+  model=IENetwork(model_structure, model_weights)
+Traceback (most recent call last):
+  File "load_model.py", line 25, in <module>
+    main(args)
+  File "load_model.py", line 16, in main
+    net = core.load_network(network=model, device_name=device, num_requests=1)
+NameError: name 'device' is not defined
+tar: stdout.log: file changed as we read it
