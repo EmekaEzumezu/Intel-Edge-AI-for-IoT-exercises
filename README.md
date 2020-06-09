@@ -1,0 +1,1 @@
+This repository contains my notebook exercises for Udacity Intel® Edge AI for IoT Developers Nanodegree Program. Exercises on Edge AI Fundamentals with OpenVINO™, Choosing the Right Hardware and Optimization Techniques and Tools.
