@@ -1,0 +1,17 @@
+%%writefile inference_model_job.sh
+#!/bin/bash
+
+exec 1>/output/stdout.log 2>/output/stderr.log
+
+mkdir -p /output
+
+DEVICE=$1
+MODELPATH=$2
+SAVEPATH=$3
+
+# Run the load model python script
+python3 inference_on_device.py  --model_path ${MODELPATH} --device ${DEVICE} --path ${SAVEPATH}
+
+cd /output
+
+tar zcvf output.tgz *
