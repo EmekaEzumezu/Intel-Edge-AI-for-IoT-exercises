@@ -1,0 +1,5 @@
+load_model_to_device.py:13: DeprecationWarning: Reading network using constructor is deprecated. Please, use IECore.read_network() method instead
+  model=IENetwork(model_structure, model_weights)
+load_model_to_device.py:15: DeprecationWarning: IEPlugin class is deprecated. Please use IECore class instead.
+  plugin = IEPlugin(device=args.device)
+tar: stdout.log: file changed as we read it
