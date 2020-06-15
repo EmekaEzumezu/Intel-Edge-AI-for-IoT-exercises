@@ -1,0 +1,2 @@
+inference_on_device.py:17: DeprecationWarning: Reading network using constructor is deprecated. Please, use IECore.read_network() method instead
+  model=IENetwork(model_structure, model_weights)

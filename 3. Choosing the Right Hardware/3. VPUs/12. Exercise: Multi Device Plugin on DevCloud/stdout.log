@@ -1,0 +1,4 @@
+Time taken to load model = 44.36757445335388 seconds
+Time Taken to run 1000 inference is = 3.5476486682891846 seconds
+cpu_gpu_vpu_stats.txt
+stderr.log
